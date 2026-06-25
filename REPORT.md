@@ -206,15 +206,9 @@ FAILED tests/test_storage.py::TestStorage::test_get_all_books_multiple
 
 text
 
-### 5.3 Исправление ошибок
-После исправления проблемы с `Book._last_id` все тесты проходят успешно:
-collected 43 items
-
-tests/test_library.py ...................... [ 51%]
-tests/test_models.py ......... [ 74%]
-tests/test_storage.py ......... [100%]
-
-================== 43 passed in 0.85s ======================
+### 5.3 Результаты тестов после исправления
+![Результаты тестов](images/test_results.png)
+Все тесты проходят успешно.
 
 ## 6. Инструкция по установке и запуску
 
